@@ -8,6 +8,14 @@
 
 ## Etiquetas para textos
 
-<h1> </h1> Para títulos
-<p> </p> para textos
-<strong> </strong> enfasís semántico
+
+``` html
+<h1> Títulos </h1>
+```
+ 
+``` html
+<p> textos</p> 
+```
+``` html
+<strong>enfasís semántico </strong> 
+```
