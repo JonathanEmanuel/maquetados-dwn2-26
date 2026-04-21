@@ -1,0 +1,26 @@
+h1 {
+    color: rgb(38, 147, 236);
+    font-weight: 900;
+    font-size: 72px;
+    font-family:'Lucida Sans', Geneva, Verdana, sans-serif;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+h2 {
+    color: teal;
+    text-decoration: underline;
+    font-style: italic;
+    text-align: left;
+}
+
+section p {
+    text-indent: 10px;
+    line-height: 26px;
+}
+
+footer p{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    word-spacing: 10px;
+}
