@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Uncial+Antiqua&display=swap');
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header h1 {
+    color: orange;
+    font-size: 72px;
+    text-align: center;
+    letter-spacing: 7px;
+    font-weight: 700;
+}
+
+header p {
+    text-align: center;
+    color: rgb(42, 42, 209);
+}
+
+section h2 {
+    text-indent: 20px;
+    color: rgb(42, 42, 209);
+    text-transform: uppercase;
+    font-family: "Uncial Antiqua", system-ui;
+    font-weight: 900;
+}
+
+p {
+      font-family: "Roboto", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: orange;
+}
+
+footer p {
+    text-align: center;
+}
