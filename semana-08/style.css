@@ -1,0 +1,95 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main {
+    height: 500px;
+    overflow: scroll;
+    background-color: bisque;
+}
+
+h1 {
+    color: rgb(38, 147, 236);
+    font-weight: 900;
+    font-size: 72px;
+    font-family:'Lucida Sans', Geneva, Verdana, sans-serif;
+    letter-spacing: 3px;
+    text-align: center;
+    border: 10px solid teal;
+}
+
+header {
+    padding: 34px 80px;
+}
+h1 span {
+    text-transform: uppercase;
+    color: teal;
+}
+h2 {
+    background-color: bisque;
+    color: teal;
+    margin-left: 32px;
+    padding-left: 10px;
+    font-style: italic;
+    text-align: left;
+    border-bottom:  3px solid teal;
+    padding-bottom: 5px;
+}
+
+section p {
+    text-indent: 10px;
+    line-height: 26px;
+    background-color: aquamarine;
+    height: 150px;
+    width: 400px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 62px;
+}
+
+img {
+    width: 300px;
+    border: 10px solid #313131;
+    margin-left: 16px;
+    margin-bottom: 10px;
+    padding: 16px 30px;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #313131;
+    margin-top: 32px;
+    margin: 20px;
+    padding: 16px;
+}
+footer p{
+    color: aliceblue;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    word-spacing: 10px;
+    margin-left: 100px;
+}
+
+.caja {
+    background-color: rgb(38, 147, 236) ;
+    border: 5px solid rgb(13, 241, 104);
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0px 10px 35px 15px;
+}
+
+.circulo {
+    border: 2px solid teal;
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    border-radius: 100px;
+    overflow: auto;
+}
+.circulo img {
+    width: 200px;
+    border: none;
+    padding: 0;
+}
