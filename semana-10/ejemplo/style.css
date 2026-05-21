@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Google Sans", sans-serif;
+}
+
+
+header {
+    height: 250px;
+    display: flex;
+    color: #858585;
+}
+
+h1 {
+    color: teal;
+}
+
+h1 span {
+    border-bottom: 4px solid slateblue;
+    padding: 0px 10px;
+    border-radius: 10px;
+}
+
+.btn {
+    background-color: slateblue;
+    padding: 5px 10px;
+    border-radius: 10px;
+    text-align: center;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: rgb(120, 104, 230);
+
+}
+.col-izq {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.col-der {
+    background-image: url(images/foto1.jpg);
+    background-size: cover;
+    background-position: 50% 80%;
+}
+section {
+    height: 250;
+}
+
+.col {
+  width:  500px;
+}
+.col img {
+    width: 100%;
+}
+
+.col {
+   
+}
+
+.galeria {
+    min-height: 200px;
+    padding: 16px;
+    background-color: teal;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.card {
+    width: 150px;
+    height: 120px;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 2px 2px 5px #fef8f8bc;
+    cursor: pointer;
+}
+
+.card:hover img {
+    width: 120%;
+}
+
+.img-fondo {
+    background-image: url(images/foto5.jpg);
+    background-size: cover;
+    background-position: 50% 70%;
+}
