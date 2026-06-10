@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: seashell;
+}
+
+header {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+main {
+    min-height: 350px;
+    padding: 32px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    height: 200px;
+    width: 200px;
+    background-color: teal;
+    border: 2px solid snow;
+    border-radius: 5px;
+    color: white;
+    font-size: 32px;
+    text-align: center;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: 2s;
+}
+
+.box-1:hover {
+    transform: translate(0px, 100px);
+}
+
+.box-2:hover {
+    transform: rotate(-25deg);
+
+}
+
+.box-3:hover {
+    font-size: 64px;
+    transform: rotateX(75deg);
+}
+
+.rotateY:hover {
+    transform: rotateY(45deg);
+}
+
+.scale:hover {
+    transform: scale(2,0.5);
+}
+
+.scaleX:hover {
+    transform: scaleX(1.75);
+}
+
+.scaleY:hover {
+    transform: scaleY(1.75);
+}
+
+.skew:hover {
+    transform: skew(30deg, 10deg);
+}
+
+.skewK:hover{
+    transform: skewX(45deg);
+}
+
+.skewY:hover{
+    transform: skewY(45deg);
+}
+
+.mix:hover {
+    transform: scale(3) skewX(30deg) translateY(-70px) translateX(50px);
+}
+
+.height:hover {
+    /* transform: scaleY(4); */
+    height: 300px;
+}
+
+.zoom:hover {
+    transform: scale(2) translate(100px, -100px)
+}
+
+
+.zoom-color {
+    transition: font-size 1s,
+                background-color 4s,
+                border-radius 2s;
+}
+
+.zoom-color:hover {
+    transform: scale(2);
+    background-color: tomato;
+    border-radius: 100px;
+    font-size: 15px;
+}
+
+.buscar {
+    transition: width 1s;
+    cursor: pointer;
+}
+
+.buscar:focus {
+    width: 500px;
+}
